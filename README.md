@@ -44,3 +44,46 @@
 ---
 
 ## 📊 System Architecture
+
+---
+
+## 🏗️ Monorepo Structure
+
+- `frontend/` – Next.js (React, Tailwind, Recharts)
+- `backend/`  – FastAPI, Celery, PostgreSQL, Redis, OpenAI
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js 18+
+- Python 3.11+
+- Docker (for local dev)
+- PostgreSQL, Redis (local or cloud)
+
+### Frontend
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+### Backend
+```bash
+cd backend
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+uvicorn app.main:app --reload
+```
+
+### Celery Worker
+```bash
+cd backend
+source venv/bin/activate
+celery -A app.celery_worker.celery worker --loglevel=info
+```
+
+### Environment Variables
+See `backend/.env.example` for required config.

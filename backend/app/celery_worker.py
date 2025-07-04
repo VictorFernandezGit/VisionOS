@@ -3,6 +3,9 @@ from app.simulation import run_simulation
 from app.openai_client import get_insight
 from app.db import store_result
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 celery = Celery(
     "worker",

@@ -1,5 +1,3 @@
-# VisionOS
-
 # VisionOS – Growth Strategy Simulator for Founders & CEOs
 
 **VisionOS** is an intelligent business sandbox that empowers entrepreneurs to simulate decisions *before* they make them. Plug in your metrics, tweak levers like ad budget, pricing, churn, or conversion rate, and see projected impacts on MRR, CAC, LTV, and profit — all with actionable, AI-generated insights.

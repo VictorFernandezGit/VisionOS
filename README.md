@@ -4,7 +4,7 @@
 
 ---
 
-## 🧠 Core Features
+## 🧠 Core Features and services
 
 - 📈 Simulate business changes in real-time
 - 🔁 Model traffic → conversion → revenue flows
